@@ -7,3 +7,7 @@ echo "Installing headless dotfiles."
 echo ".zshrc"
 rm -i ~/.zshrc
 ln -s $DIR/.zshrc ~/.zshrc
+
+echo ".vimrc"
+rm -i ~/.vimrc
+ln -s $DIR/.vimrc ~/.vimrc
