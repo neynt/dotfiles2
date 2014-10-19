@@ -11,3 +11,10 @@ ln -s $DIR/.zshrc ~/.zshrc
 echo ".vimrc"
 rm -i ~/.vimrc
 ln -s $DIR/.vimrc ~/.vimrc
+
+echo ".vim/"
+rm -Ir ~/.vim
+ln -s $DIR/.vim ~/.vim
+mkdir ~/.vim/backup
+mkdir ~/.vim/tmp
+mkdir ~/.vim/undo
