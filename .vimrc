@@ -1,15 +1,19 @@
 set hlsearch
 
-" auto indent
-set autoindent
-set cindent
-
 " tabs
 set softtabstop=4
 set tabstop=4
 set shiftwidth=4
 set smarttab
 set expandtab
+
+" auto indent
+set autoindent
+if has("autocmd")
+    " language based smart indent
+    filetype plugin indent on
+    autocmd FileType html setlocal shiftwidth=2 tabstop=2
+endif
 
 " line numbers
 set number
