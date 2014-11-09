@@ -1,10 +1,10 @@
 # xfce4 workspace switcher
 style "pager" = "default"
 {
-    bg[NORMAL]        = "#573F44"	# background colour
-    fg[NORMAL]        = "#83545E"   # border color of other windows
-    bg[SELECTED]      = "#83545E"	# selected workspace fill
-    fg[SELECTED]      = "#83545E"   # selected workspace window borders
+    bg[NORMAL]        = "#444444"	# background colour
+    fg[NORMAL]        = "#888888"   # border color of other windows
+    bg[SELECTED]      = "#666666"	# selected workspace fill
+    fg[SELECTED]      = "#666666"   # selected workspace window borders
 }
 widget_class "*Pager*"             style "pager"
 class "*Pager*"                    style "pager"

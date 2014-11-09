@@ -26,9 +26,11 @@ prompt walters
 alias ls='ls -F --color=auto'
 alias grep='grep --color=auto'
 
-# Path
+# Path, variables
 export PATH=$(ruby -rubygems -e "puts Gem.user_dir")/bin:$PATH
 export PATH=~/bin:$PATH
+export EDITOR=vim
+export BROWSER=chromium
 
 # up/down arrows search beginning
 autoload -U up-line-or-beginning-search

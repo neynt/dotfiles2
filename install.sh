@@ -10,3 +10,7 @@ ln -s $DIR/.gtkrc-2.0 ~/.gtkrc-2.0
 echo ".xmonad/"
 rm -Ir ~/.xmonad
 ln -s $DIR/.xmonad ~/.xmonad
+
+echo ".config/mpv/"
+rm -Ir ~/.config/mpv
+ln -s $DIR/.config/mpv ~/.config/mpv
