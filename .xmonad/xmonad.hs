@@ -1,5 +1,6 @@
 import XMonad
 import XMonad.Hooks.DynamicLog
+import XMonad.Hooks.ManageHelpers
 import XMonad.Config.Desktop
 import XMonad.Config.Xfce
 import XMonad.Layout.NoBorders

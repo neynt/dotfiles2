@@ -8,3 +8,23 @@ style "pager" = "default"
 }
 widget_class "*Pager*"             style "pager"
 class "*Pager*"                    style "pager"
+
+style "xfce-tasklist-style"
+{
+    XfceTasklist::max-button-length = -1
+}
+class "XfceTasklist" style "xfce-tasklist-style"
+
+# vim
+style "no-resize-handle"
+{
+    GtkWindow::resize-grip-height = 0
+    GtkWindow::resize-grip-width = 0
+}
+
+class "GtkWidget" style "no-resize-handle"
+
+style "vimfix" {
+  bg[NORMAL] = "#151515"
+}
+widget "vim-main-window.*GtkForm" style "vimfix"
